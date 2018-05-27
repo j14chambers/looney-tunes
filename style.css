@@ -1,0 +1,49 @@
+body{
+    background: navy;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header img{
+    width: 100%;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+}
+.container div{
+    
+    text-align: center;
+}
+.container div ul{
+    text-align: center;
+    list-style: none;
+}
+.director{
+    background: white;
+    color: navy;
+    grid-column: 1/3;
+}
+.producer{
+    grid-column: 3/5;
+}
+.story{
+    background: orange;
+    grid-column: 4/5;
+    
+}
+.music{
+
+}
+.voices{
+    grid-column: 2/4;
+    grid-row: 2
+
+}
